@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #EBEDF3;
+  color: #222222
+}
+
+.container {
+  display: block;
+  width: 85%;
+  margin: 0 auto
+}
+
+header {
+  text-align: center;
+  font-size: 1.7em
+}
+
+form p {
+  color: #6C6D6F
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+.form-item {
+  flex-basis: 23%
+}
+
+.receipt-container {
+  padding: 17px 0
+}
+
+.btn-reset {
+  width: 100%
+}
+
+@media (max-width: 768px) {
+  .form-item {
+    flex-basis: 48%
+  }
+}
+
+@media (max-width: 480px) {
+  .form {
+    flex-direction: column
+  }
+}
