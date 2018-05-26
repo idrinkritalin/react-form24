@@ -29,7 +29,7 @@ class Form extends Component {
       surname: '',
       email: '',
       city: '',
-      morning: true,
+      morning: false,
       day: false,
       evening: false,
       submitted: false
